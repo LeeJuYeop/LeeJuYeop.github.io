@@ -31,6 +31,8 @@ texture:
   style: [black]
   showNav : false
   showPicker : false
+  disqus_shortname: games
+  analytics_id: '< YOUR ID >'
 
   social_links:
     twitter: thelehhman
