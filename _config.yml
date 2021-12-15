@@ -40,6 +40,16 @@ comment:
   disqus:
     shortname:    "leejuyeop"
 
+texture:
+  title: Lee's fantastic blog
+  tagline: Student
+  date_format: "%b %-d, %Y"
+
+  social_links:
+    twitter: thelehhman
+    github:  thelehhman
+    linkedIn: in/thelehhman # format: locale/username
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
