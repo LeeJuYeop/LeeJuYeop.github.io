@@ -35,15 +35,16 @@ theme: texture
 plugins:
   - jekyll-feed
 
-comment:
-  provider:       "disqus"
-  disqus:
-    shortname:    "leejuyeop"
+# comment:
+#   provider:       "disqus"
+#   disqus:
+#     shortname:    "leejuyeop"
 
 texture:
   title: Lee's fantastic blog
   tagline: Student
   date_format: "%b %-d, %Y"
+  style: [black]
 
   social_links:
     twitter: thelehhman
