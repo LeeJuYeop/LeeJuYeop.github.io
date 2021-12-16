@@ -1,3 +1,43 @@
+# Git 및 jekyll 환경 구축
+블로그 구현을 위한 기초로 Git을 연결하고 jekyll을 설치.
+
+
+
+# 테마 적용 및 조작
+테마는 texture.
+
+`_config.yml`을 수정하면서 테마에서 제공하는 다양한 기능을 활성화.
+특히 "texture" 부분이 핵심.
+```yaml
+texture:
+  title: Lee's fantastic blog
+  tagline: Student, Developer
+  date_format: "%b %-d, %Y"
+  style: [black]
+  showNav : false
+  showPicker : false
+
+  social_links:
+    twitter: none
+    github:  LeeJuYeop
+    linkedIn: in/thelehhman # format: locale/username
+    rss : rss
+```
+
+post 미리보기 기능 활성화를 위해 다음을 추가
+```yaml
+show_excerpts: true
+```
+
+#  댓글 기능 추가 
+disqus를 이용하여 댓글 기능 추가.
+```yaml
+comment:
+  provider:       "disqus"
+  disqus:
+    shortname:    "leejuyeop"
+```
+
 # texture
 
 A configurable jekyll theme for simply beautiful blogs.

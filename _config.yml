@@ -29,7 +29,7 @@ texture:
   showPicker : false
 
   social_links:
-    twitter: thelehhman
+    #twitter: none
     github:  LeeJuYeop
     linkedIn: in/thelehhman # format: locale/username
     rss : rss
