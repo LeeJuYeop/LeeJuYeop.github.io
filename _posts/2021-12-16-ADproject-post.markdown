@@ -48,13 +48,13 @@ drawUI는 drawList를 토대로 그래프를 그립니다. 이 때 drawList는 �
 
 # 정렬 알고리즘
 총 10개의 정렬 알고리즘을 구현했습니다.
--bogo 정렬
--bubble 정렬
--cocktail 정렬
--selection 정렬
--counting 정렬
--merge 정렬
--insert 정렬
--heap 정렬
--quick 정렬
--intro 정렬
+* bogo 정렬
+* bubble 정렬
+* cocktail 정렬
+* selection 정렬
+* counting 정렬
+* merge 정렬
+* insert 정렬
+* heap 정렬
+* quick 정렬
+* intro 정렬
