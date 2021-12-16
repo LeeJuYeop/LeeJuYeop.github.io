@@ -29,7 +29,7 @@ Markdown은 일반적인 마크업 언어보다 작성이 쉽다는 장점이 �
 ##### 제목
 ###### 제목
 
-
+이 외에도 다양한 마크다운 문법이 존재합니다. `![html_example](/html_example.png)` 는 이미지를 삽입하기 위한 마크다운 문법입니다. 이런 식으로 코드를 표현할 때는 \`(코드)\`을 사용합니다.  \`\`\`(코드 블록)\`\`\` 으로 아래와 같이 코드 블록(code block)도 삽입할 수도 있습니다.
 
 ```javascript
 const express = require('express')
@@ -41,16 +41,3 @@ app.get('/', function (req, res) {
  
 app.listen(3000)
 ```
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam qui voluptatem excepturi nemo similique atque sapiente aperiam, dolorum deleniti! Esse quam perferendis temporibus nemo at molestias necessitatibus tenetur cupiditate sapiente. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil et voluptatibus non labore officiis assumenda, distinctio perspiciatis blanditiis nesciunt rerum molestias impedit fugiat nulla qui libero minima quasi! Libero, iure.
-
-```scss
-body {
-	font-family: 'Nunito Sans', sans-serif;
-	line-height: 1.5em;
-	margin: 0;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-}
-```
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam rerum, ratione impedit necessitatibus facere soluta odio repellat asperiores neque! Sunt iusto quia suscipit amet inventore eum, vel molestiae reiciendis alias.
