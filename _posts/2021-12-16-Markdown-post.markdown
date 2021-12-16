@@ -11,10 +11,10 @@ comments: true
 
 일반 사람들에게 가장 익숙한 마크업 언어는 HTML일 것입니다. 간혹 인터넷을 쓰다보다보면 *.html* 로 끝나는 주소를 보신적이 있으실 것입니다. 인터넷 브라우저가 웹페이지의 구조를 알 수 있도록 태그를 통해서 웹페이지의 구조를 기술한 것이 HTML 문서입니다. HTML의 구조가 궁금하다면 웹브라우저의 어느곳에서나 'F12' 키를 눌러 확인해보실 수 있습니다.
 
-![texture theme preview](/html_example.png)
+![texture theme preview](/html_example.PNG)
 
 
-Markdown
+Markdown은 일반적인 마크업 언어보다 작성이 쉽다는 장점이 있습니다. 위의 HTML이 태그를 이용해서 구조를 명시한다면 Markdown은 
 
 ```javascript
 const express = require('express')
