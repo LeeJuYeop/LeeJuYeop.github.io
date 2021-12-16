@@ -1,13 +1,21 @@
 # Git 및 jekyll 환경 구축
 블로그 구현을 위한 기초로 Git을 연결하고 jekyll을 설치.
 
+`<username>.github.io` 이름의 repository를 생성하고 로컬저장소에 clone.
 
+    $ git clone "https://github.com/LeeJuYeop/LeeJuYeop.github.io.git" blog
+
+로컬저장소에 Jekyll 환경 설치:
+
+    $ gem install jekyll bundler
+    $ jekyll new . --force
 
 # 테마 적용 및 조작
 테마는 texture.
 
 `_config.yml`을 수정하면서 테마에서 제공하는 다양한 기능을 활성화.
-특히 "texture" 부분이 핵심.
+특히 **"texture:"** 부분이 핵심.
+style은 black을 채택.
 ```yaml
 texture:
   title: Lee's fantastic blog
@@ -24,19 +32,33 @@ texture:
     rss : rss
 ```
 
-post 미리보기 기능 활성화를 위해 다음을 추가
+post 미리보기 기능 활성화를 위해 `_config.yml`에 다음을 추가
 ```yaml
 show_excerpts: true
 ```
 
 #  댓글 기능 추가 
 disqus를 이용하여 댓글 기능 추가.
+
+`_config.yml`에 다음을 추가.
 ```yaml
 comment:
   provider:       "disqus"
   disqus:
     shortname:    "leejuyeop"
 ```
+
+_layouts 폴더의 `post.html`에 disqus에서 복사한 코드 양식을 붙여넣기
+```javascript
+{% if page.comments %}
+    let PAGE_URL = "{{site.url}}{{page.url}}"
+    let PAGE_IDENTIFIER = "{{page.url}}"
+    # 붙여넣기
+{% endif %}
+```
+
+
+
 
 # texture
 
