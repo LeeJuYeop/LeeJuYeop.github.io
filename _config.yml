@@ -31,7 +31,7 @@ texture:
   social_links:
     #twitter: none
     github:  LeeJuYeop
-    linkedIn: in/thelehhman # format: locale/username
+    #linkedIn: in/thelehhman # format: locale/username
     rss : rss
 
 comment:

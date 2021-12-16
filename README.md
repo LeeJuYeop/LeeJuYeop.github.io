@@ -5,7 +5,7 @@
 
     $ git clone "https://github.com/LeeJuYeop/LeeJuYeop.github.io.git" blog
 
-로컬저장소에 Jekyll 환경 설치:
+로컬저장소에 Jekyll 환경 설치.
 
     $ gem install jekyll bundler
     $ jekyll new . --force
@@ -48,7 +48,12 @@ comment:
     shortname:    "leejuyeop"
 ```
 
-_layouts 폴더의 `post.html`에 disqus에서 복사한 코드 양식을 붙여넣기
+각 post 헤더 부분에 다음을 추가
+```yaml
+comments: true
+```
+
+_layouts 폴더의 `post.html`에 조건문을 추가하고 disqus에서 복사한 코드 양식을 붙여넣기
 ```javascript
 {% if page.comments %}
     let PAGE_URL = "{{site.url}}{{page.url}}"
@@ -58,9 +63,9 @@ _layouts 폴더의 `post.html`에 disqus에서 복사한 코드 양식을 붙여
 ```
 
 
+<!-- 기존 README.md -->
 
-
-# texture
+<!-- # texture
 
 A configurable jekyll theme for simply beautiful blogs.
 
@@ -209,4 +214,4 @@ If this project help you reduce time to develop, you can give me a cup of coffee
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
 ## More Themes
-[plainwhite](https://github.com/samarsault/plainwhite-jekyll)
+[plainwhite](https://github.com/samarsault/plainwhite-jekyll) -->
