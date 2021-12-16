@@ -17,6 +17,9 @@ comments: true
 Markdown은 일반적인 마크업 언어보다 작성이 쉽다는 장점이 있습니다. 위의 HTML이 태그를 이용해서 구조를 명시한다면 Markdown은 특수기호만으로 서식을 넣을 수 있습니다.
 
 
+예를들어 bold체는 
+
+
 
 ```javascript
 const express = require('express')
